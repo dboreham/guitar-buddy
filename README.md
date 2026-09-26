@@ -9,12 +9,26 @@ can see the shape, read the notes in standard notation and tab, and hear it
 played back. The output is Guitar Pro 5 (`.gp5`), which Guitar Pro 6–8,
 TuxGuitar and others open.
 
+## Installation
+
+With [uv](https://docs.astral.sh/uv/), install the `guitar-buddy` command
+straight from GitHub:
+
+```sh
+uv tool install git+https://github.com/dboreham/guitar-buddy
+```
+
+To upgrade to the latest version later:
+
+```sh
+uv tool upgrade guitar-buddy
+```
+
 ## Usage
 
 ```sh
-uv sync
-uv run guitar-buddy examples/autumn-leaves.chords          # writes examples/autumn-leaves.gp5
-uv run guitar-buddy my-song.chords -o ~/tabs/my-song.gp5
+guitar-buddy my-song.chords                        # writes my-song.gp5
+guitar-buddy my-song.chords -o ~/tabs/my-song.gp5
 ```
 
 ## Chord sheet format
@@ -55,6 +69,10 @@ staff, change the chord diagram setting in the stylesheet.
 
 ## Development
 
+From a clone of the repository:
+
 ```sh
+uv sync
+uv run guitar-buddy examples/autumn-leaves.chords   # writes examples/autumn-leaves.gp5
 uv run pytest
 ```
