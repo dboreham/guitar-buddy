@@ -47,6 +47,12 @@ Cmaj7     x-x-10-12-12-12   xx1333
   `half step down`, `7 string`) or note names from low to high, e.g.
   `tuning: D2 A2 D3 G3 B3 E4`. Seven-string tunings are supported.
 
+## Chord diagrams above the staff
+
+Guitar Pro 8 decides where chord diagrams go from its stylesheet, not from the
+file, and defaults to a grid at the top of the page. To show them above the
+staff, change the chord diagram setting in the stylesheet.
+
 ## Development
 
 ```sh

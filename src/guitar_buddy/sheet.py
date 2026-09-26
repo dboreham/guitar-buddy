@@ -8,8 +8,8 @@ A chord sheet looks like::
     tempo: 80
 
     [A section]
-    Cm7       x3534x    x2143x
-    F7        1x122x    1x234x
+    Cm7       x3534x    x1324x
+    F7        1x121x    1x121x
     Bbmaj7    x-1-3-2-3-x
     # comments start with '#'
     Ebmaj7    x-6-8-7-8-x   x1324x

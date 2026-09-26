@@ -21,6 +21,10 @@ def build_song(sheet: Sheet) -> gp.Song:
     track = song.tracks[0]
     track.name = "Guitar"
     track.channel.instrument = STEEL_STRING_GUITAR
+    # Ask for diagrams above the staff rather than in a grid at the top.
+    # Guitar Pro 8 ignores this for GP5 files and uses its stylesheet instead.
+    track.settings.diagramsInScore = True
+    track.settings.diagramList = False
     # Guitar Pro numbers strings from 1 = highest pitch.
     track.strings = [
         gp.GuitarString(number, value)
