@@ -1,0 +1,26 @@
+title: Autumn Leaves
+artist: Joseph Kosma
+tuning: standard
+tempo: 80
+
+# name    frets (low E -> high e)   fingers (optional)
+
+[A section]
+Cm7       x3534x        x1324x
+F7        1x121x        1x121x
+Bbmaj7    x1323x        x1324x
+Ebmaj7    x6878x        x1324x
+Am7b5     5x554x        2x341x
+D7b9      x5454x        x2131x
+Gm6       3x2333        2x1334
+
+[Color voicings]
+Cm9       x-3-1-3-3-x   x2134x
+F13       1x1233        1x1234
+Bbmaj9    x-1-0-2-1-x   x1-32x
+D7#9      x5456x        x2134x
+D7alt     x-5-4-5-6-6   x21344
+Gm11      3-x-3-3-1-1   2x3411
+
+[Up the neck]
+Cmaj7     x-x-10-12-12-12   xx1333
