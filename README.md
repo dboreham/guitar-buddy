@@ -9,6 +9,11 @@ can see the shape, read the notes in standard notation and tab, and hear it
 played back. The output is Guitar Pro 5 (`.gp5`), which Guitar Pro 6–8,
 TuxGuitar and others open.
 
+Here is [`examples/autumn-leaves.chords`](examples/autumn-leaves.chords)
+opened in Guitar Pro 8:
+
+![Autumn Leaves chord voicings in Guitar Pro 8, with chord diagrams showing fingerings and barres above the staff](doc/autumn-leaves-gp8-screenshot.png)
+
 ## Installation
 
 With [uv](https://docs.astral.sh/uv/), install the `guitar-buddy` command
